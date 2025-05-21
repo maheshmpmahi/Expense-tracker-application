@@ -1,0 +1,16 @@
+{
+    "expenses": [
+        {
+            "id": 0,
+            "timestamp": "2025-05-18T23:11:23.787903",
+            "description": "items",
+            "amount": 122.0
+        },
+        {
+            "id": 2,
+            "timestamp": "2025-05-19T09:16:17.413407",
+            "description": "items",
+            "amount": 1200.0
+        }
+    ]
+}

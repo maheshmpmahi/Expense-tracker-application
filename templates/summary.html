@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Expense Summary</h1>
+    <p>Total Expenses: ₹{{ '%.2f' % total }}</p>
+    <br>
+    <p><a href="{{ url_for('index') }}">Add New Expense</a> | <a href="{{ url_for('view_expenses') }}">View Expenses</a></p>
+</body>
+</html>
